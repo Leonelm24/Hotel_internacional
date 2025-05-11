@@ -7,10 +7,10 @@ from sqlalchemy import create_engine, text
 from pathlib import Path
 
 def get_engine():
-    user = "sa"
-    password = "Leo1234"
+    user = "user"
+    password = "xx"
     server = "localhost"
-    database = "barcelo-02"
+    database = "bbdd"
     driver = "ODBC+Driver+17+for+SQL+Server"
 
     return create_engine(
