@@ -8,7 +8,7 @@
 ## 📁 Estructura del proyecto
 
 ```
-barcelo_02/
+Hotel_02/
 │
 ├── data/
 │   ├── raw/               # Archivos originales (.csv)
@@ -57,7 +57,7 @@ barcelo_02/
 
 3. **Carga (Load)**  
    - Se guardan archivos limpios en `/data/processed/`
-   - Se cargan a SQL Server en la BBDD `barcelo-02`
+   - Se cargan a SQL Server en la BBDD 
    - Se ejecutan vistas SQL desde `/queries/` para análisis
 
 ---
@@ -100,7 +100,7 @@ cambiar los datos de conexión en pipeline_transaction.py
 python main.py
 ```
 
-> Esto cargará los archivos desde `data/raw/`, los procesará y actualizará la base `barcelo-02` en SQL Server, incluyendo las vistas.
+> Esto cargará los archivos desde `data/raw/`, los procesará y actualizará la base de datos en SQL Server, incluyendo las vistas.
 
 
 
